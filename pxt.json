@@ -1,5 +1,5 @@
 {
-    "name": "04. Led 2 - Freenove",
+    "name": "06. LED PWM - Freenove",
     "description": "",
     "dependencies": {
         "core": "*",
