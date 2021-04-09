@@ -14,9 +14,5 @@ basic.forever(function () {
     }
 })
 basic.forever(function () {
-    if (state) {
-        pins.digitalWritePin(DigitalPin.P1, 1)
-    } else {
-        pins.digitalWritePin(DigitalPin.P1, 0)
-    }
+    pins.digitalWritePin(DigitalPin.P1, state)
 })
