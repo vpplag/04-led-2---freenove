@@ -3,13 +3,13 @@ basic.forever(function () {
     if (pins.digitalReadPin(DigitalPin.P0) == 0) {
         basic.pause(10)
         if (pins.digitalReadPin(DigitalPin.P0) == 0) {
-            state = 1
+            state = 0
         }
     }
     if (pins.digitalReadPin(DigitalPin.P0) == 1) {
         basic.pause(10)
         if (pins.digitalReadPin(DigitalPin.P0) == 1) {
-            state = 0
+            state = 1
         }
     }
 })
